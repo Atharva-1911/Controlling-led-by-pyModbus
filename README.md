@@ -1,5 +1,5 @@
 Functions used in the code:
-vModbusSerialClient(): Creates a Modbus RTU client object with the given serial parameters.
+ModbusSerialClient(): Creates a Modbus RTU client object with the given serial parameters.
 connect(): Opens the serial connection to the Modbus device.
 write_register(): Writes the value of led_mask to the specified Modbus holding register.
 close(): Closes the Modbus serial connection.
